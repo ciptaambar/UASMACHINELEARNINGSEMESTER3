@@ -1,0 +1,1366 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Halo",
+        "Hai",
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat malam",
+        "Hei",
+        "Permisi",
+        "Assalamualaikum"
+      ],
+      "responses": [
+        "Halo! Selamat datang di Toko Skincare kami. Ada yang bisa saya bantu?",
+        "Hai! Terima kasih sudah menghubungi kami. Bagaimana saya bisa membantu Anda hari ini?",
+        "Selamat datang! Saya siap membantu Anda dengan kebutuhan skincare Anda."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Sampai jumpa",
+        "Sampai jumpa",
+        "Terima kasih",
+        "Sudah cukup",
+        "Selesai",
+        "Dadah"
+      ],
+      "responses": [
+        "Terima kasih sudah berkonsultasi! Semoga kulitmu semakin sehat dan glowing!",
+        "Sampai jumpa! Jangan ragu hubungi kami lagi jika butuh bantuan.",
+        "Senang bisa membantu! Selamat merawat kulitmu!"
+      ]
+    },
+    {
+      "tag": "cleanser_info",
+      "patterns": [
+        "Apa itu cleanser",
+        "Fungsi cleanser",
+        "Manfaat facial wash",
+        "Kegunaan pembersih wajah",
+        "Untuk apa cleanser",
+        "Cleanser berguna untuk apa",
+        "Jenis cleanser apa saja"
+      ],
+      "responses": [
+        "Cleanser adalah pembersih wajah yang berfungsi mengangkat kotoran, minyak, makeup, dan polusi dari kulit. Jenisnya ada gel cleanser (untuk kulit berminyak), cream cleanser (kulit kering), foam cleanser (kulit normal-kombinasi), micellar water (praktis), dan oil cleanser (double cleansing). Cleanser penting sebagai langkah pertama skincare untuk membersihkan pori-pori."
+      ]
+    },
+    {
+      "tag": "cleanser_usage",
+      "patterns": [
+        "Cara pakai cleanser",
+        "Bagaimana menggunakan facial wash",
+        "Tutorial pakai pembersih wajah",
+        "Cleanser dipakai kapan",
+        "Berapa kali pakai cleanser"
+      ],
+      "responses": [
+        "Cara pakai cleanser: 1) Basahi wajah dengan air, 2) Tuang cleanser secukupnya ke telapak tangan, 3) Busakan dan aplikasikan ke wajah dengan gerakan memutar, 4) Pijat lembut selama 30-60 detik, 5) Bilas hingga bersih dengan air. Gunakan 2x sehari (pagi dan malam). Untuk double cleansing, gunakan oil cleanser dulu, lalu water-based cleanser."
+      ]
+    },
+    {
+      "tag": "toner_info",
+      "patterns": [
+        "Apa itu toner",
+        "Fungsi toner",
+        "Manfaat toner wajah",
+        "Kegunaan toner",
+        "Untuk apa toner",
+        "Toner berguna untuk apa",
+        "Jenis toner apa saja"
+      ],
+      "responses": [
+        "Toner adalah cairan skincare yang digunakan setelah cleanser untuk menyeimbangkan pH kulit, menghidrasi, dan mempersiapkan kulit menyerap produk selanjutnya. Jenis toner: hydrating toner (melembabkan), exfoliating toner (mengangkat sel kulit mati dengan AHA/BHA), soothing toner (menenangkan kulit sensitif), dan pH balancing toner (menyeimbangkan pH)."
+      ]
+    },
+    {
+      "tag": "toner_usage",
+      "patterns": [
+        "Cara pakai toner",
+        "Bagaimana menggunakan toner",
+        "Tutorial pakai toner",
+        "Toner dipakai kapan",
+        "Berapa kali pakai toner"
+      ],
+      "responses": [
+        "Cara pakai toner: 1) Setelah membersihkan wajah, tuang toner ke kapas atau telapak tangan, 2) Usap lembut ke seluruh wajah (jika pakai kapas) atau tepuk-tepuk (jika pakai tangan), 3) Hindari area mata. Gunakan 2x sehari setelah cleanser. Metode 7-skin (aplikasikan toner 7 lapis) bisa untuk hidrasi ekstra."
+      ]
+    },
+    {
+      "tag": "serum_info",
+      "patterns": [
+        "Apa itu serum",
+        "Fungsi serum",
+        "Manfaat serum wajah",
+        "Kegunaan serum",
+        "Untuk apa serum",
+        "Serum berguna untuk apa",
+        "Jenis serum apa saja"
+      ],
+      "responses": [
+        "Serum adalah produk konsentrat dengan molekul kecil yang menembus lebih dalam ke kulit untuk mengatasi masalah spesifik. Jenis serum: Vitamin C (mencerahkan), Hyaluronic Acid (hidrasi), Niacinamide (mengecilkan pori & mencerahkan), Retinol (anti-aging), Peptide (kencangkan kulit), AHA/BHA (eksfoliasi), dan Tranexamic Acid (mengatasi hiperpigmentasi)."
+      ]
+    },
+    {
+      "tag": "serum_usage",
+      "patterns": [
+        "Cara pakai serum",
+        "Bagaimana menggunakan serum",
+        "Tutorial pakai serum",
+        "Serum dipakai kapan",
+        "Berapa kali pakai serum",
+        "Urutan pakai serum"
+      ],
+      "responses": [
+        "Cara pakai serum: 1) Aplikasikan setelah toner pada wajah bersih, 2) Teteskan 2-3 tetes serum ke telapak tangan, 3) Tepuk-tepuk lembut ke seluruh wajah dan leher, 4) Tunggu 30-60 detik agar meresap sebelum lanjut produk berikutnya. Gunakan 1-2x sehari. Jika pakai multiple serum, urutkan dari tekstur paling ringan ke berat, atau water-based dulu baru oil-based."
+      ]
+    },
+    {
+      "tag": "moisturizer_info",
+      "patterns": [
+        "Apa itu moisturizer",
+        "Fungsi pelembab",
+        "Manfaat moisturizer",
+        "Kegunaan pelembab wajah",
+        "Untuk apa moisturizer",
+        "Pelembab berguna untuk apa",
+        "Jenis moisturizer"
+      ],
+      "responses": [
+        "Moisturizer adalah pelembab yang mengunci kelembaban kulit dan membentuk barrier untuk melindungi dari kehilangan air. Jenis moisturizer: gel moisturizer (kulit berminyak, ringan), lotion (kulit normal-kombinasi), cream (kulit kering, tekstur lebih kaya), sleeping mask (night cream intensif), dan oil-free moisturizer (kulit acne-prone). Semua jenis kulit butuh moisturizer!"
+      ]
+    },
+    {
+      "tag": "moisturizer_usage",
+      "patterns": [
+        "Cara pakai moisturizer",
+        "Bagaimana menggunakan pelembab",
+        "Tutorial pakai moisturizer",
+        "Moisturizer dipakai kapan",
+        "Berapa kali pakai pelembab"
+      ],
+      "responses": [
+        "Cara pakai moisturizer: 1) Aplikasikan setelah serum pada wajah yang masih sedikit lembab, 2) Ambil secukupnya (seukuran kacang polong), 3) Dots di dahi, pipi, hidung, dagu, 4) Ratakan dengan gerakan ke atas dan ke luar, 5) Aplikasikan juga ke leher. Gunakan 2x sehari (pagi dan malam). Moisturizer pagi bisa yang ringan, malam yang lebih rich."
+      ]
+    },
+    {
+      "tag": "sunscreen_info",
+      "patterns": [
+        "Apa itu sunscreen",
+        "Fungsi sunscreen",
+        "Manfaat sunblock",
+        "Kegunaan SPF",
+        "Untuk apa sunscreen",
+        "Sunscreen berguna untuk apa",
+        "Jenis sunscreen"
+      ],
+      "responses": [
+        "Sunscreen adalah produk yang melindungi kulit dari sinar UV (UVA dan UVB) yang menyebabkan penuaan dini, hiperpigmentasi, dan kanker kulit. Jenis sunscreen: physical/mineral sunscreen (zinc oxide, titanium dioxide, white cast), chemical sunscreen (avobenzone, octinoxate, ringan), dan hybrid (kombinasi keduanya). Pilih minimal SPF 30 PA+++. Sunscreen adalah langkah WAJIB skincare!"
+      ]
+    },
+    {
+      "tag": "sunscreen_usage",
+      "patterns": [
+        "Cara pakai sunscreen",
+        "Bagaimana menggunakan sunblock",
+        "Tutorial pakai SPF",
+        "Sunscreen dipakai kapan",
+        "Berapa kali pakai sunscreen",
+        "Re-Aplikasikan sunscreen"
+      ],
+      "responses": [
+        "Cara pakai sunscreen: 1) Gunakan sebagai langkah terakhir skincare pagi, 2) Aplikasikan 15-30 menit sebelum keluar rumah, 3) Gunakan 2 jari penuh atau sendok teh untuk wajah-leher, 4) Ratakan merata ke seluruh wajah, jangan lupa telinga dan leher. Re-apply setiap 2-3 jam jika terpapar matahari langsung. Pakai SETIAP HARI, bahkan di dalam ruangan atau saat mendung!"
+      ]
+    },
+    {
+      "tag": "exfoliator_info",
+      "patterns": [
+        "Apa itu exfoliator",
+        "Fungsi exfoliator",
+        "Manfaat eksfoliasi",
+        "Kegunaan scrub",
+        "Untuk apa exfoliator",
+        "AHA BHA itu apa",
+        "Jenis exfoliator"
+      ],
+      "responses": [
+        "Exfoliator mengangkat sel kulit mati untuk mencerahkan dan meratakan tekstur kulit. Jenis: physical exfoliant (scrub dengan butiran), chemical exfoliant (AHA seperti glycolic & lactic acid untuk permukaan kulit, BHA/salicylic acid untuk dalam pori & jerawat, PHA untuk kulit sensitif). Chemical exfoliant lebih gentle dan efektif dibanding scrub."
+      ]
+    },
+    {
+      "tag": "exfoliator_usage",
+      "patterns": [
+        "Cara pakai exfoliator",
+        "Bagaimana eksfoliasi wajah",
+        "Tutorial pakai AHA BHA",
+        "Berapa kali eksfoliasi",
+        "Exfoliator dipakai kapan"
+      ],
+      "responses": [
+        "Cara pakai exfoliator: Physical scrub: pijat lembut wajah lembab 1-2 menit, bilas. Chemical exfoliant: aplikasikan dengan kapas/tangan setelah cleanser, tunggu kering, lanjut skincare. Gunakan 1-3x seminggu (jangan setiap hari!). Mulai dari 1x/minggu untuk kulit sensitif. Pakai malam hari, dan WAJIB pakai sunscreen keesokan harinya karena kulit lebih sensitif."
+      ]
+    },
+    {
+      "tag": "mask_info",
+      "patterns": [
+        "Apa itu masker wajah",
+        "Fungsi Wajah mask",
+        "Manfaat masker",
+        "Kegunaan sheet mask",
+        "Jenis masker wajah",
+        "Clay mask itu apa",
+        "Sleeping mask itu apa"
+      ],
+      "responses": [
+        "Face mask memberikan treatment intensif untuk kulit. Jenis masker: sheet mask (kertas dengan essence untuk hidrasi instan), clay/mud mask (menyerap minyak berlebih), cream/gel mask (melembabkan), peel-off mask (mengangkat komedo & sel kulit mati), sleeping mask (night cream intensif), dan bubble mask (membersihkan pori). Sesuaikan dengan kebutuhan kulitmu!"
+      ]
+    },
+    {
+      "tag": "mask_usage",
+      "patterns": [
+        "Cara pakai masker",
+        "Bagaimana menggunakan sheet mask",
+        "Tutorial pakai clay mask",
+        "Berapa lama pakai masker",
+        "Masker dipakai kapan"
+      ],
+      "responses": [
+        "Cara pakai masker: Sheet mask - aplikasikan di wajah bersih 15-20 menit, tepuk sisa essence. Clay mask - aplikasikan tipis merata, tunggu hingga kering (10-15 menit), bilas. Sleeping mask - aplikasikan sebagai langkah terakhir sebelum tidur. Cream mask - aplikasikan tebal, diamkan 10-20 menit, bilas. Gunakan masker 1-3x seminggu sesuai jenis kulit."
+      ]
+    },
+    {
+      "tag": "essence_info",
+      "patterns": [
+        "Apa itu essence",
+        "Fungsi essence",
+        "Manfaat essence",
+        "Beda essence dan serum",
+        "Essence untuk apa",
+        "Perlu pakai essence"
+      ],
+      "responses": [
+        "Essence adalah produk cair konsentrat yang lebih ringan dari serum, berfungsi menghidrasi dan mempersiapkan kulit menyerap produk selanjutnya lebih baik. Essence khas K-beauty ini mengandung bahan aktif untuk mencerahkan, anti-aging, atau hidrasi. Teksturnya lebih watery dari serum tapi lebih kental dari toner. Cocok untuk layering dan memberikan boost hidrasi ekstra."
+      ]
+    },
+    {
+      "tag": "essence_usage",
+      "patterns": [
+        "Cara pakai essence",
+        "Bagaimana menggunakan essence",
+        "Tutorial pakai essence",
+        "Essence dipakai kapan",
+        "Urutan essence"
+      ],
+      "responses": [
+        "Cara pakai essence: 1) Aplikasikan setelah toner sebelum serum, 2) Tuang beberapa tetes ke telapak tangan, 3) Tepuk-tepuk lembut ke wajah hingga meresap, 4) Bisa diulang 2-3 layer untuk hidrasi maksimal. Gunakan 2x sehari pagi dan malam. Essence opsional tapi bagus untuk tambahan hidrasi dan meningkatkan efektivitas skincare."
+      ]
+    },
+    {
+      "tag": "eyecream_info",
+      "patterns": [
+        "Apa itu eye cream",
+        "Fungsi krim mata",
+        "Manfaat eye cream",
+        "Untuk apa eye cream",
+        "Perlu eye cream",
+        "Eye cream untuk kantung mata"
+      ],
+      "responses": [
+        "Eye cream adalah pelembab khusus area mata yang lebih gentle karena kulit mata 10x lebih tipis dari wajah. Fungsi: mengatasi dark circles, kantung mata, fine lines, crow's feet, dan menjaga kelembaban. Bahan umum: caffeine (kantung mata), vitamin K (dark circles), peptide (anti-aging), hyaluronic acid (hidrasi). Mulai pakai eye cream dari usia 20-25 tahun untuk pencegahan."
+      ]
+    },
+    {
+      "tag": "eyecream_usage",
+      "patterns": [
+        "Cara pakai eye cream",
+        "Bagaimana menggunakan krim mata",
+        "Tutorial pakai eye cream",
+        "Eye cream dipakai kapan",
+        "Berapa banyak eye cream"
+      ],
+      "responses": [
+        "Cara pakai eye cream: 1) Gunakan setelah serum sebelum moisturizer, 2) Ambil sebesar biji beras untuk kedua mata, 3) Dots di area bawah mata dengan ring finger (jari paling lembut), 4) Tepuk-tepuk lembut dari dalam ke luar, JANGAN menggosok, 5) Aplikasikan juga di ujung luar mata untuk crow's feet. Gunakan 2x sehari pagi dan malam."
+      ]
+    },
+    {
+      "tag": "retinol_info",
+      "patterns": [
+        "Apa itu retinol",
+        "Fungsi retinol",
+        "Manfaat retinol",
+        "Retinol untuk apa",
+        "Retinol untuk jerawat",
+        "Retinol anti aging",
+        "Efek samping retinol"
+      ],
+      "responses": [
+        "Retinol adalah bentuk vitamin A yang powerful untuk anti-aging, mencerahkan, mengatasi jerawat, dan meratakan tekstur kulit dengan mempercepat regenerasi sel. Manfaat: mengurangi kerutan, hiperpigmentasi, dan jerawat. Efek samping awal: purging, kemerahan, kering, mengelupas (normal di minggu 1-4). Tidak boleh dipakai ibu hamil/menyusui. Retinol adalah gold standard anti-aging!"
+      ]
+    },
+    {
+      "tag": "retinol_usage",
+      "patterns": [
+        "Cara pakai retinol",
+        "Bagaimana menggunakan retinol",
+        "Tutorial pakai retinol",
+        "Retinol dipakai kapan",
+        "Retinol purging",
+        "Cara mulai retinol"
+      ],
+      "responses": [
+        "Cara pakai retinol: 1) HANYA malam hari setelah cleanser & toner, 2) Mulai 1-2x seminggu, naikkan bertahap, 3) Gunakan seukuran kacang polong untuk seluruh wajah, 4) Hindari area mata & bibir, 5) Tunggu kering, lanjut moisturizer. WAJIB pakai sunscreen keesokan harinya! Mulai dari konsentrasi rendah (0.25-0.5%). Sandwich method: moisturizer-retinol-moisturizer untuk kulit sensitif. Sabar, hasil terlihat setelah 3-6 bulan."
+      ]
+    },
+    {
+      "tag": "vitamin_c_info",
+      "patterns": [
+        "Apa itu vitamin C",
+        "Fungsi vitamin C",
+        "Manfaat vitamin C serum",
+        "Vitamin C untuk apa",
+        "Vitamin C mencerahkan",
+        "Jenis vitamin C"
+      ],
+      "responses": [
+        "Vitamin C adalah antioksidan powerful yang mencerahkan kulit, memudarkan dark spots, melindungi dari radikal bebas, dan meningkatkan produksi kolagen. Jenis: L-Ascorbic Acid (paling efektif tapi tidak stabil), Ascorbyl Glucoside (gentle & stabil), Ethyl Ascorbic Acid (stabil & mencerahkan), dan Sodium Ascorbyl Phosphate (cocok kulit sensitif). Konsentrasi efektif 10-20%. Vitamin C bikin glowing!"
+      ]
+    },
+    {
+      "tag": "vitamin_c_usage",
+      "patterns": [
+        "Cara pakai vitamin C",
+        "Bagaimana menggunakan vitamin C",
+        "Tutorial pakai vitamin C serum",
+        "Vitamin C dipakai pagi atau malam",
+        "Vitamin C oxidized"
+      ],
+      "responses": [
+        "Cara pakai vitamin C: 1) Gunakan pagi hari setelah cleanser & toner, 2) Teteskan 2-3 tetes ke wajah, 3) Tepuk lembut hingga meresap, 4) Tunggu 1-2 menit, lanjut moisturizer & sunscreen. Jangan campur dengan niacinamide (beri jeda), retinol, atau AHA/BHA di saat bersamaan. Simpan di tempat gelap & dingin. Buang jika berubah warna coklat gelap (oxidized). Pakai sunscreen untuk maksimalkan hasil!"
+      ]
+    },
+    {
+      "tag": "niacinamide_info",
+      "patterns": [
+        "Apa itu niacinamide",
+        "Fungsi niacinamide",
+        "Manfaat niacinamide",
+        "Niacinamide untuk apa",
+        "Niacinamide untuk pori",
+        "Niacinamide mencerahkan"
+      ],
+      "responses": [
+        "Niacinamide (Vitamin B3) adalah multitasker yang mencerahkan, mengecilkan pori, kontrol minyak, memperkuat skin barrier, mengatasi jerawat ringan, dan meratakan warna kulit. Cocok untuk SEMUA jenis kulit, termasuk sensitif. Konsentrasi efektif 2-10%. Niacinamide gentle dan bisa dikombinasikan dengan banyak bahan aktif. Hasilnya gradual tapi konsisten!"
+      ]
+    },
+    {
+      "tag": "niacinamide_usage",
+      "patterns": [
+        "Cara pakai niacinamide",
+        "Bagaimana menggunakan niacinamide",
+        "Tutorial pakai niacinamide",
+        "Niacinamide dipakai kapan",
+        "Kombinasi niacinamide"
+      ],
+      "responses": [
+        "Cara pakai niacinamide: 1) Aplikasikan pagi dan/atau malam setelah toner, 2) Teteskan 2-4 tetes ke wajah, 3) Tepuk lembut hingga meresap, 4) Lanjut dengan moisturizer. Niacinamide aman dikombinasikan dengan hampir semua bahan (hyaluronic acid, peptide, ceramide). Untuk pemula, hindari dulu kombinasi langsung dengan vitamin C murni (L-Ascorbic Acid) - beri jeda pagi-malam atau 30 menit."
+      ]
+    },
+    {
+      "tag": "hyaluronic_acid_info",
+      "patterns": [
+        "Apa itu hyaluronic acid",
+        "Fungsi hyaluronic acid",
+        "Manfaat HA",
+        "Hyaluronic acid untuk apa",
+        "HA untuk hidrasi",
+        "Hyaluronic acid kering"
+      ],
+      "responses": [
+        "Hyaluronic Acid (HA) adalah humectant yang menarik dan mengikat air hingga 1000x beratnya, memberikan hidrasi intens tanpa berminyak. HA ada dalam berbagai molecular weight: low (penetrasi dalam), medium (keseimbangan), high (hidrasi permukaan & plumping). Cocok untuk semua jenis kulit. HA bukan eksfoliasi acid, jadi aman dipakai setiap hari. Kulit terhidrasi = glowing & plump!"
+      ]
+    },
+    {
+      "tag": "hyaluronic_acid_usage",
+      "patterns": [
+        "Cara pakai hyaluronic acid",
+        "Bagaimana menggunakan HA",
+        "Tutorial pakai hyaluronic acid",
+        "HA dipakai kapan",
+        "Hyaluronic acid di kulit kering"
+      ],
+      "responses": [
+        "Cara pakai hyaluronic acid: 1) Aplikasikan pada kulit LEMBAB setelah toner, 2) Teteskan 2-3 tetes ke wajah, 3) Tepuk lembut, 4) PENTING: segera kunci dengan moisturizer. Jangan biarkan HA kering di wajah karena bisa menarik air dari kulit (bikin kering). Gunakan 2x sehari. Semprot mist sebelum HA untuk hasil maksimal. HA bisa di-layer dengan serum lain."
+      ]
+    },
+    {
+      "tag": "skincare_routine_order",
+      "patterns": [
+        "Urutan skincare",
+        "Bagaimana urutan pakai skincare",
+        "Langkah-langkah skincare",
+        "Skincare Rutinitas Pesan",
+        "Urutan pagi dan malam",
+        "Langkah by Langkah skincare"
+      ],
+      "responses": [
+        "URUTAN SKINCARE:\n\nPAGI: 1) Cleanser, 2) Toner, 3) Essence (optional), 4) Serum (Vitamin C, Niacinamide), 5) Eye Cream, 6) Moisturizer, 7) Sunscreen (WAJIB!)\n\nMALAM: 1) Oil Cleanser (jika pakai makeup), 2) Water-based Cleanser, 3) Toner, 4) Exfoliator (1-3x/minggu), 5) Essence (optional), 6) Serum (Retinol, Niacinamide), 7) Eye Cream, 8) Moisturizer, 9) Sleeping Mask (optional)\n\nPrinsip: Tekstur ringan berat, Water-based Oil-based"
+      ]
+    },
+    {
+      "tag": "oily_skin_care",
+      "patterns": [
+        "Skincare untuk kulit berminyak",
+        "Kulit berminyak pakai apa",
+        "Perawatan kulit Berminyak",
+        "Kulit berminyak jerawatan",
+        "Rekomendasi skincare Berminyak Kulit",
+        "Cara merawat kulit berminyak"
+      ],
+      "responses": [
+        "SKINCARE KULIT BERMINYAK:\n\n1) Cleanser: gel/foam cleanser dengan salicylic acid\n2) Toner: exfoliating toner (BHA)\n3) Serum: niacinamide, salicylic acid\n4) Moisturizer: gel/water-based, oil-free\n5) Sunscreen: gel/matte finish\n\nTIPS: Jangan skip moisturizer! Kulit berminyak tetap butuh hidrasi. Clay mask 1-2x/minggu. Hindari produk heavy/comedogenic. Fokus pada kontrol minyak & unclog pores. Gunakan BHA untuk eksfoliasi dalam pori."
+      ]
+    },
+    {
+      "tag": "dry_skin_care",
+      "patterns": [
+        "Skincare untuk kulit kering",
+        "Kulit kering pakai apa",
+        "Perawatan kulit Kering",
+        "Kulit kering mengelupas",
+        "Rekomendasi skincare Kering Kulit",
+        "Cara merawat kulit kering"
+      ],
+      "responses": [
+        "SKINCARE KULIT KERING:\n\n1) Cleanser: cream/milk cleanser yang hydrating\n2) Toner: hydrating toner dengan hyaluronic acid\n3) Essence: untuk boost hidrasi\n4) Serum: hyaluronic acid, ceramide, peptide\n5) Moisturizer: cream/rich moisturizer\n6) Face Oil: sebagai langkah terakhir (optional)\n7) Sunscreen: moisturizing sunscreen\n\nTIPS: Hindari eksfoliasi berlebihan. Gunakan AHA gentle 1x/minggu. Layer produk hydrating. Sleeping mask setiap malam. Fokus pada barrier repair & intensive hydration."
+      ]
+    },
+    {
+      "tag": "sensitive_skin_care",
+      "patterns": [
+        "Skincare untuk kulit sensitif",
+        "Kulit sensitif pakai apa",
+        "Perawatan kulit Sensitif",
+        "Kulit sensitif merah-merah",
+        "Rekomendasi skincare Sensitif Kulit",
+        "Cara merawat kulit sensitif"
+      ],
+      "responses": [
+        "SKINCARE KULIT SENSITIF:\n\n1) Cleanser: gentle, fragrance-free, low pH\n2) Toner: soothing toner (centella, aloe vera)\n3) Serum: niacinamide (low %), ceramide, panthenol\n4) Moisturizer: hypoallergenic, fragrance-free\n5) Sunscreen: physical/mineral sunscreen\n\nTIPS: Patch test produk baru! Hindari fragrance, alcohol, essential oil. Mulai retinol/exfoliant dengan konsentrasi rendah. Gunakan PHA untuk eksfoliasi gentle. Fokus pada calming & strengthening barrier. Jangan ganti produk terlalu sering."
+      ]
+    },
+    {
+      "tag": "combination_skin_care",
+      "patterns": [
+        "Skincare untuk kulit kombinasi",
+        "Kulit kombinasi pakai apa",
+        "Perawatan kulit combination",
+        "T-zone berminyak",
+        "Rekomendasi skincare combination Kulit",
+        "Cara merawat kulit kombinasi"
+      ],
+      "responses": [
+        "SKINCARE KULIT KOMBINASI:\n\n1) Cleanser: gel/foam cleanser (pH balanced)\n2) Toner: hydrating + mild exfoliating\n3) Serum: niacinamide (balance minyak & hidrasi)\n4) Moisturizer: gel-cream, T-zone lebih tipis\n5) Sunscreen: gel/lotion finish\n\nTIPS: Multi-masking (clay mask di T-zone, hydrating mask di pipi). Spot treatment untuk area berbeda. Jangan over-strip T-zone. Balance antara kontrol minyak & hidrasi."
+      ]
+    },
+    {
+      "tag": "acne_treatment",
+      "patterns": [
+        "Cara mengatasi jerawat",
+        "Skincare untuk jerawat",
+        "Obat jerawat",
+        "Jerawat meradang",
+        "Cara hilangkan jerawat",
+        "Perawatan Jerawat",
+        "Jerawat tidak sembuh"
+      ],
+      "responses": [
+        "MENGATASI JERAWAT:\n\n1) Cleanser: salicylic acid atau benzoyl peroxide\n2) Toner: BHA/salicylic acid\n3) Serum: niacinamide, tea tree oil, azelaic acid\n4) Spot treatment: benzoyl peroxide, sulfur\n5) Moisturizer: oil-free, non-comedogenic\n\nTIPS: Jangan dipencet! Ganti sarung bantal rutin. Hindari touching face. Untuk jerawat hormonal, konsultasi dokter. Sabar, jerawat butuh 4-6 minggu untuk membaik. Jika parah, ke dermatologist untuk resep retinoid/antibiotik."
+      ]
+    },
+    {
+      "tag": "acne_scar_treatment",
+      "patterns": [
+        "Cara menghilangkan bekas jerawat",
+        "Bekas jerawat hitam",
+        "PIH PIE",
+        "Jerawat scar",
+        "Flek hitam bekas jerawat",
+        "Cara memudarkan bekas jerawat"
+      ],
+      "responses": [
+        "MENGATASI BEKAS JERAWAT:\n\nUntuk PIH (Post-Inflammatory Hyperpigmentation - bekas hitam):\n- Vitamin C, Niacinamide, Alpha Arbutin\n- AHA (glycolic/lactic acid)\n- Tranexamic Acid, Kojic Acid\n- WAJIB sunscreen!\n\nUntuk PIE (Post-Inflammatory Erythema - bekas merah):\n- Azelaic acid, Niacinamide\n- Centella asiatica\n- Avoid irritation\n\nUntuk Acne Scar (lubang):\n- Retinol (mild improvement)\n- Treatment klinik: microneedling, laser, chemical peeling\n\nHasil terlihat 2-6 bulan. Konsisten & sabar!"
+      ]
+    },
+    {
+      "tag": "anti_aging",
+      "patterns": [
+        "Skincare anti aging",
+        "Cara mencegah penuaan",
+        "Mengatasi kerutan",
+        "Anti wrinkle",
+        "Skincare untuk aging",
+        "Cara awet muda",
+        "Fine lines"
+      ],
+      "responses": [
+        "SKINCARE ANTI-AGING:\n\n1) Cleanser: gentle, hydrating\n2) Toner: hydrating toner\n3) Serum: Retinol (malam), Vitamin C (pagi), Peptide, Growth Factor\n4) Eye Cream: dengan retinol/peptide\n5) Moisturizer: rich dengan ceramide\n6) Sunscreen: SPF 50 PA++++ (PALING PENTING!)\n\nBAHAN TERBAIK:\n- Retinol/Retinoids (gold standard)\n- Vitamin C (antioksidan)\n- Peptides (stimulasi kolagen)\n- Niacinamide (barrier)\n- Hyaluronic Acid (plumping)\n\nMulai anti-aging dari usia 25. Sunscreen = anti-aging terbaik!"
+      ]
+    },
+    {
+      "tag": "dark_spots",
+      "patterns": [
+        "Cara menghilangkan flek hitam",
+        "Dark spots",
+        "Hiperpigmentasi",
+        "Kulit belang",
+        "Cara mencerahkan kulit",
+        "Whitening",
+        "Brightening"
+      ],
+      "responses": [
+        "MENGATASI DARK SPOTS & HIPERPIGMENTASI:\n\nBahan Aktif:\n1) Vitamin C (mencerahkan & antioksidan)\n2) Niacinamide (meratakan warna kulit)\n3) Alpha Arbutin (inhibitor melanin)\n4) Tranexamic Acid (hiperpigmentasi)\n5) Azelaic Acid (melasma)\n6) AHA (eksfoliasi & brightening)\n7) Kojic Acid (whitening)\n\nRUTIN:\nPagi: Vitamin C + Sunscreen SPF 50\nMalam: Retinol/AHA + Moisturizer\n\nWAJIB sunscreen! UV bikin dark spots makin gelap. Hasil 8-12 minggu. Untuk melasma parah, ke dokter."
+      ]
+    },
+    {
+      "tag": "large_pores",
+      "patterns": [
+        "Cara mengecilkan pori",
+        "Pori-pori besar",
+        "Mengatasi pori besar",
+        "Pore minimizer",
+        "Cara menutup pori"
+      ],
+      "responses": [
+        "MENGATASI PORI BESAR:\n\nPenyebab: genetik, minyak berlebih, aging, komedo, sun damage\n\nSOLUSI:\n1) Cleanser: salicylic acid (BHA)\n2) Toner: exfoliating toner (AHA/BHA)\n3) Serum: Niacinamide (kontrol minyak & sebum)\n4) Retinol: malam hari (cell turnover)\n5) Clay Mask: 1-2x/minggu\n6) Sunscreen: cegah sun damage\n\nTIPS: Pori tidak bisa ditutup permanen, tapi bisa diminimalkan tampilannya. Double cleansing penting. Jangan squeeze pores! Eksfoliasi rutin. Kontrol minyak dengan niacinamide. Hasil 2-3 bulan."
+      ]
+    },
+    {
+      "tag": "dull_skin",
+      "patterns": [
+        "Kulit kusam",
+        "Cara mencerahkan wajah",
+        "Kulit tidak glowing",
+        "Mengatasi kulit kusam",
+        "Cara bikin glowing",
+        "Kulit kusam gelap"
+      ],
+      "responses": [
+        "MENGATASI KULIT KUSAM:\n\nPenyebab: sel kulit mati menumpuk, dehidrasi, kurang tidur, polusi\n\nSOLUSI:\n1) Eksfoliasi rutin: AHA/BHA 2-3x/minggu\n2) Vitamin C serum: antioksidan & brightening\n3) Niacinamide: meratakan skin tone\n4) Hydrating routine: essence + HA serum\n5) Sheet mask: 2x/minggu\n6) Sunscreen: mencegah kusam\n\nLIFESTYLE:\n- Minum air 2L/hari\n- Tidur cukup (7-8 jam)\n- Kurangi gula & processed food\n- Olahraga teratur\n\nGlowing skin = healthy skin from inside out!"
+      ]
+    },
+    {
+      "tag": "sunscreen_recommendation",
+      "patterns": [
+        "Rekomendasi sunscreen",
+        "Sunscreen bagus",
+        "Sunscreen untuk kulit berminyak",
+        "Sunscreen yang tidak lengket",
+        "SPF terbaik"
+      ],
+      "responses": [
+        "REKOMENDASI SUNSCREEN:\n\nUntuk Kulit Berminyak:\n- Gel/water-based sunscreen\n- Matte finish\n- Oil-control formula\n- Contoh: Biore UV Aqua Rich, Skin Aqua UV Moisture Gel\n\nUntuk Kulit Kering:\n- Moisturizing sunscreen\n- Cream-based\n- Dengan hyaluronic acid\n- Contoh: La Roche-Posay Anthelios, Cetaphil Sun\n\nUntuk Kulit Sensitif:\n- Physical/mineral sunscreen\n- Fragrance-free\n- Zinc oxide/titanium dioxide\n- Contoh: Avene, Eucerin\n\nPilih minimal SPF 30 PA+++. Yang penting: pakai rutin & re-apply!"
+      ]
+    },
+    {
+      "tag": "double_cleansing",
+      "patterns": [
+        "Apa itu double cleansing",
+        "Cara double cleansing",
+        "Perlu double cleansing",
+        "Oil cleanser",
+        "Micellar water"
+      ],
+      "responses": [
+        "DOUBLE CLEANSING:\n\nMetode pembersihan 2 langkah untuk angkat makeup, sunscreen, dan kotoran maksimal.\n\nSTEP 1 - Oil-Based Cleanser:\n- Oil cleanser, cleansing balm, atau micellar water\n- Mengangkat makeup, sunscreen, sebum\n- Aplikasikan di wajah kering, pijat, bilas\n\nSTEP 2 - Water-Based Cleanser:\n- Gel/foam/cream cleanser\n- Membersihkan sisa kotoran & keringat\n- Aplikasikan di wajah basah, busakan, bilas\n\nKAPAN:\n- Malam hari (wajib jika pakai makeup/sunscreen)\n- Pagi: cukup water-based cleanser\n\nJangan over-cleansing! Maksimal 2x sehari."
+      ]
+    },
+    {
+      "tag": "skin_barrier",
+      "patterns": [
+        "Apa itu Kulit barrier",
+        "Cara memperbaiki Kulit barrier",
+        "Kulit barrier rusak",
+        "Over exfoliation",
+        "Kulit perih",
+        "Kulit sensitif tiba-tiba"
+      ],
+      "responses": [
+        "SKIN BARRIER:\n\nBarrier = lapisan terluar kulit yang melindungi dari irritants, bakteri, kehilangan air.\n\nTANDA BARRIER RUSAK:\n- Kulit kering, ketat, mengelupas\n- Kemerahan, perih, gatal\n- Jerawat tiba-tiba\n- Sensitif terhadap produk\n- Kulit terasa \"mentah\"\n\nPENYEBAB:\n- Over-exfoliation\n- Produk terlalu harsh\n- Cuaca ekstrem\n\nCARA MEMPERBAIKI:\n1) STOP semua actives (retinol, AHA/BHA, vitamin C)\n2) Basic routine: gentle cleanser + ceramide moisturizer + sunscreen\n3) Tambah: ceramide, centella, panthenol, niacinamide\n4) Hindari: fragrance, alcohol, scrub\n\nRecovery: 2-4 minggu. Sabar & gentle!"
+      ]
+    },
+    {
+      "tag": "purging_breakout",
+      "patterns": [
+        "Apa itu purging",
+        "Bedanya purging dan breakout",
+        "Jerawat setelah pakai skincare",
+        "Purging berapa lama",
+        "Normal purging"
+      ],
+      "responses": [
+        "PURGING vs BREAKOUT:\n\nPURGING (Normal):\n- Terjadi saat pakai active ingredients (retinol, AHA/BHA, vitamin C)\n- Jerawat di area biasa jerawat muncul\n- Sembuh lebih cepat (<1 minggu)\n- Durasi: 4-6 minggu\n- Tanda sel kulit mati terangkat\n\nBREAKOUT (Reaksi Negatif):\n- Jerawat di area yang tidak biasa\n- Disertai kemerahan, gatal, perih\n- Tidak membaik setelah 6 minggu\n- Produk tidak cocok/alergi\n\nTIPS PURGING:\n- Tetap lanjutkan (jika memang purging)\n- Jangan tambah produk baru\n- Jaga hidrasi & skin barrier\n- Jika ragu, STOP & konsultasi\n\nJika breakout = ganti produk!"
+      ]
+    },
+    {
+      "tag": "product_storage",
+      "patterns": [
+        "Cara menyimpan skincare",
+        "Skincare di kulkas",
+        "Simpan vitamin C",
+        "Expired skincare",
+        "Berapa lama skincare tahan"
+      ],
+      "responses": [
+        "CARA MENYIMPAN SKINCARE:\n\nPRINSIP UMUM:\n- Tempat sejuk, kering, terhindar sinar matahari\n- Tutup rapat setelah pakai\n- Jangan simpan di kamar mandi (lembab)\n- Gunakan spatula (jangan jari langsung)\n\nDI KULKAS:\n Vitamin C (cegah oxidasi)\n Retinol (perpanjang shelf life)\n Sheet mask (soothing effect)\n Eye cream (de-puffing)\n\nJANGAN DI KULKAS:\n Clay mask (tekstur mengeras)\n Oil-based products (tekstur berubah)\n\nEXPIRY:\n- Unopened: 2-3 tahun\n- Opened: 6-12 bulan (lihat PAO symbol)\n- Vitamin C: 3 bulan setelah dibuka\n\nBuang jika: bau aneh, berubah warna, tekstur berubah!"
+      ]
+    },
+    {
+      "tag": "skincare_pregnancy",
+      "patterns": [
+        "Skincare saat hamil",
+        "Skincare untuk ibu hamil",
+        "Retinol saat hamil",
+        "Bahan yang aman untuk hamil",
+        "Skincare ibu menyusui"
+      ],
+      "responses": [
+        "SKINCARE SAAT HAMIL & MENYUSUI:\n\nHINDARI:\n Retinoids (retinol, tretinoin) - teratogenic\n Salicylic acid high % (boleh <2%)\n Hydroquinone\n Essential oils (beberapa)\n Benzoyl peroxide high %\n\nAMAN:\n Vitamin C\n Niacinamide\n Hyaluronic acid\n Glycerin\n Ceramide\n Azelaic acid\n Physical sunscreen (zinc/titanium)\n\nTIPS:\n- Konsultasi dokter kandungan\n- Stick to gentle, basic routine\n- Fokus pada hidrasi & sun protection\n- Hindari strong actives\n\nMelasma kehamilan: pakai sunscreen + vitamin C"
+      ]
+    },
+    {
+      "tag": "ingredient_combination",
+      "patterns": [
+        "Kombinasi bahan skincare",
+        "Boleh campur vitamin C dan niacinamide",
+        "Retinol dan AHA",
+        "Bahan yang tidak boleh dicampur",
+        "Layering skincare"
+      ],
+      "responses": [
+        "KOMBINASI BAHAN SKINCARE:\n\nBOLEH DICAMPUR:\n Niacinamide + Hyaluronic Acid\n Niacinamide + Peptides\n Vitamin C + Vitamin E + Ferulic Acid\n Retinol + Niacinamide (bertahap)\n AHA + Niacinamide\n\nJANGAN DICAMPUR (beri jeda):\n Vitamin C + Retinol (beda waktu: pagi-malam)\n Vitamin C + AHA/BHA (terlalu acidic)\n Retinol + AHA/BHA (terlalu irritating)\n Benzoyl Peroxide + Retinol (inaktivasi)\n Multiple acids sekaligus\n\nTIPS:\n- Pagi: Vitamin C + Niacinamide + Sunscreen\n- Malam: Retinol atau AHA/BHA (bergantian)\n- Mulai slow, satu active per waktu\n- Listen to your skin!"
+      ]
+    },
+    {
+      "tag": "korean_skincare",
+      "patterns": [
+        "Apa itu K-beauty",
+        "Korean skincare Rutinitas",
+        "10 Langkah Korean skincare",
+        "Skincare Korea",
+        "Glass Kulit"
+      ],
+      "responses": [
+        "KOREAN SKINCARE (K-BEAUTY):\n\nFilosofi: prevention > treatment, layering hydration, glass skin (dewy, translucent)\n\n10-STEP ROUTINE:\n1) Oil cleanser\n2) Water-based cleanser\n3) Exfoliator (2-3x/minggu)\n4) Toner\n5) Essence\n6) Serum/Ampoule\n7) Sheet mask\n8) Eye cream\n9) Moisturizer\n10) Sunscreen (pagi) / Sleeping mask (malam)\n\nKEY PRODUCTS:\n- Essence (signature K-beauty)\n- Sheet mask\n- Sleeping pack\n- Cushion foundation + SPF\n\nINGREDIENTS POPULER:\n- Snail mucin, Centella, Ginseng, Green tea, Rice, Propolis\n\nTidak harus 10 langkah! Sesuaikan kebutuhan."
+      ]
+    },
+    {
+      "tag": "minimalist_skincare",
+      "patterns": [
+        "Skincare minimalis",
+        "Skincare sederhana",
+        "Basic skincare",
+        "Skincare untuk pemula",
+        "Skincare 3 langkah"
+      ],
+      "responses": [
+        "MINIMALIST SKINCARE ROUTINE:\n\nBASIC 3 LANGKAH:\n1) CLEANSER - bersihkan wajah\n2) MOISTURIZER - jaga kelembaban\n3) SUNSCREEN - proteksi UV (PAGI)\n\nJika ingin tambah (optional):\n+ Toner - hidrasi ekstra\n+ Serum - targetkan masalah spesifik\n+ Exfoliator - 2x/minggu\n\nPRINSIP:\n- Less is more\n- Fokus pada barrier health\n- Konsisten > banyak produk\n- Slow introduction\n\nUntuk Pemula:\nMulai dari basic 3, tambah satu produk per 2 minggu. Observe kulit kamu. Tidak semua orang butuh 10 langkah! Find what works for YOU."
+      ]
+    },
+    {
+      "tag": "skincare_men",
+      "patterns": [
+        "Skincare untuk pria",
+        "Perawatan wajah pria",
+        "Skincare cowok",
+        "Grooming pria"
+      ],
+      "responses": [
+        "SKINCARE UNTUK PRIA:\n\nKulit pria: lebih tebal, lebih berminyak, pori lebih besar, lebih prone ke iritasi karena shaving.\n\nBASIC ROUTINE:\n1) Cleanser: gel/foam (control minyak)\n2) Moisturizer: lightweight, oil-free\n3) Sunscreen: SPF 30+ (WAJIB!)\n\nTAMBAHAN:\n- Exfoliator: BHA 2x/minggu (kontrol minyak)\n- Serum: niacinamide (pori & minyak)\n- After-shave: soothing, alcohol-free\n- Eye cream: anti-fatigue\n\nSHAVING TIPS:\n- Shave after warm shower\n- Gunakan shaving cream\n- Shave searah rambut tumbuh\n- Aplikasikan soothing product after\n\nSkincare bukan hanya untuk wanita!"
+      ]
+    },
+    {
+      "tag": "teen_skincare",
+      "patterns": [
+        "Skincare untuk remaja",
+        "Skincare usia 15 tahun",
+        "Perawatan wajah remaja",
+        "Skincare SMA",
+        "Jerawat remaja"
+      ],
+      "responses": [
+        "SKINCARE UNTUK REMAJA:\n\nMasalah umum: jerawat hormonal, minyak berlebih, komedo\n\nBASIC ROUTINE:\n1) Gentle cleanser (salicylic acid untuk jerawat)\n2) Moisturizer ringan (gel/lotion)\n3) Sunscreen SPF 30+\n\nTAMBAHAN (jika perlu):\n- Spot treatment: benzoyl peroxide/tea tree\n- Exfoliator: BHA 1-2x/minggu\n- Clay mask: 1x/minggu\n\nYANG PERLU DIHINDARI:\n Retinol (tunggu usia 20+)\n Strong acids\n Over-exfoliation\n Memencet jerawat!\n\nTIPS:\n- Keep it simple!\n- Jangan terpengaruh trend berlebihan\n- Fokus pada cleanse + moisturize + protect\n- Ganti sarung bantal rutin\n- Jika jerawat parah, konsultasi dokter"
+      ]
+    },
+    {
+      "tag": "body_skincare",
+      "patterns": [
+        "Perawatan kulit tubuh",
+        "Body care Rutinitas",
+        "Body lotion",
+        "Body scrub",
+        "Kulit tubuh kering"
+      ],
+      "responses": [
+        "BODY SKINCARE ROUTINE:\n\n1) BODY WASH:\n- pH balanced, gentle\n- Hindari sabun keras\n\n2) BODY SCRUB:\n- 1-2x/minggu\n- Chemical (AHA/BHA) atau physical\n- Fokus: siku, lutut, tumit\n\n3) BODY LOTION:\n- Aplikasikan saat kulit masih lembab\n- Untuk kulit kering: shea butter, ceramide\n- Untuk kulit berminyak: lightweight lotion\n\n4) SUNSCREEN:\n- Area exposed (tangan, kaki, leher)\n\n5) SPECIAL TREATMENTS:\n- Body serum (brightening, firming)\n- Underarm whitening\n- Neck cream (anti-aging)\n- Hand cream\n\nTIPS:\n- Mandi air hangat (bukan panas)\n- Pat dry, jangan gosok\n- Aplikasikan lotion dalam 3 menit setelah mandi"
+      ]
+    },
+    {
+      "tag": "lip_care",
+      "patterns": [
+        "Perawatan bibir",
+        "Bibir kering pecah-pecah",
+        "Lip balm",
+        "Cara memerahkan bibir",
+        "Lip scrub"
+      ],
+      "responses": [
+        "PERAWATAN BIBIR:\n\nMasalah: bibir kering, pecah-pecah, gelap\n\nROUTINE:\n1) LIP SCRUB:\n- 1-2x/minggu (gentle!)\n- DIY: gula + madu\n- Exfoliasi sel kulit mati\n\n2) LIP BALM/TREATMENT:\n- Siang: SPF lip balm (wajib!)\n- Malam: intensive lip mask\n- Ingredient: shea butter, vitamin E, ceramide\n\n3) HYDRATION:\n- Minum air cukup\n- Hindari menjilat bibir\n\n4) PROTECTION:\n- Sunscreen khusus bibir\n- Hindari lipstik matte berlebihan\n\nMEMERAHKAN BIBIR:\n- Beetroot lip tint (natural)\n- Lip sleeping mask rutin\n- Stop merokok\n- Exfoliate + moisturize konsisten\n\nJangan kelupas kulit bibir dengan tangan!"
+      ]
+    },
+    {
+      "tag": "neck_care",
+      "patterns": [
+        "Perawatan leher",
+        "Leher keriput",
+        "Neck cream",
+        "Anti aging leher",
+        "Leher gelap"
+      ],
+      "responses": [
+        "PERAWATAN LEHER:\n\nMengapa penting: kulit leher tipis, prone to wrinkles, sering diabaikan.\n\nROUTINE:\n1) Cleanser: bersihkan seperti wajah\n2) Toner: aplikasikan hingga leher\n3) Serum: vitamin C (pagi), retinol (malam)\n4) NECK CREAM atau face moisturizer\n5) Sunscreen: WAJIB! (area sering terlupakan)\n\nINGREDIENTS:\n- Retinol (anti-aging)\n- Peptides (firming)\n- Vitamin C (brightening)\n- Hyaluronic acid (hydration)\n\nTEKNIK APLIKASI:\n- Gerakan dari bawah ke atas\n- Jangan tarik kulit\n- Pijat lembut untuk circulation\n\nPREVENTION:\n- Hindari \"tech neck\" (looking down)\n- Postur baik\n- Neck exercises\n- SUNSCREEN daily!"
+      ]
+    },
+    {
+      "tag": "hand_care",
+      "patterns": [
+        "Perawatan tangan",
+        "Tangan kering",
+        "Hand cream",
+        "Tangan keriput",
+        "Cara melembutkan tangan"
+      ],
+      "responses": [
+        "PERAWATAN TANGAN:\n\nMasalah: kering, kasar, aging signs (tangan= age giveaway!)\n\nDAILY ROUTINE:\n1) HAND WASH: gentle, moisturizing\n2) HAND CREAM: setelah cuci tangan\n- Ingredient: shea butter, glycerin, urea\n3) SUNSCREEN: area terlupakan!\n4) CUTICLE OIL: jaga kesehatan kuku\n\nWEEKLY TREATMENT:\n1) Hand scrub: exfoliate\n2) Hand mask: intensive hydration\n3) Overnight treatment: thick cream + gloves\n\nANTI-AGING:\n- Retinol hand cream (malam)\n- Vitamin C (brightening)\n- SPF (crucial!)\n\nTIPS:\n- Gunakan sarung tangan saat:\n * Mencuci piring\n * Berkebun\n * Cuaca dingin\n- Re-apply hand cream sering\n- Jangan lupa area between fingers"
+      ]
+    },
+    {
+      "tag": "sunscreen_myths",
+      "patterns": [
+        "Mitos sunscreen",
+        "Sunscreen bikin hitam",
+        "Perlu sunscreen di dalam rumah",
+        "Sunscreen untuk kulit gelap",
+        "Fakta sunscreen"
+      ],
+      "responses": [
+        "MITOS vs FAKTA SUNSCREEN:\n\nMITOS: \"Tidak perlu sunscreen di dalam rumah\"\nFAKTA: UVA menembus kaca jendela! Tetap perlu sunscreen.\n\nMITOS: \"Kulit gelap tidak perlu sunscreen\"\nFAKTA: Semua skin tone butuh protection dari UV damage, cancer, hyperpigmentation.\n\nMITOS: \"Sunscreen bikin kulit hitam/kusam\"\nFAKTA: Tidak pakai sunscreen yang bikin kusam karena sun damage!\n\nMITOS: \"Cloudy day tidak perlu sunscreen\"\nFAKTA: 80% UV menembus awan. Tetap pakai!\n\nMITOS: \"Sekali aplikasi cukup seharian\"\nFAKTA: Re-apply setiap 2-3 jam untuk maximum protection.\n\nMITOS: \"SPF tinggi tidak perlu re-apply\"\nFAKTA: SPF 30 vs 100 beda tipis. Yang penting: pakai cukup + re-apply.\n\nSunscreen = investasi terbaik untuk kulit!"
+      ]
+    },
+    {
+      "tag": "natural_skincare",
+      "patterns": [
+        "Skincare alami",
+        "DIY skincare",
+        "Bahan alami untuk wajah",
+        "Masker alami",
+        "Natural skincare"
+      ],
+      "responses": [
+        "NATURAL/DIY SKINCARE:\n\nAMAN & EFEKTIF:\n Madu: antibacterial, moisturizing\n Aloe vera: soothing, hydrating\n Oatmeal: gentle exfoliant, calming\n Green tea: antioxidant\n Yogurt: lactic acid (AHA)\n\nHATI-HATI:\n Lemon: terlalu acidic, photosensitivity\n Baking soda: pH terlalu tinggi\n Toothpaste untuk jerawat: irritating\n Cinnamon: bisa bakar kulit\n\nDIY MASKS:\n- Madu + yogurt: hydrating\n- Oatmeal + madu: soothing\n- Avocado: moisturizing\n- Green tea ice cubes: de-puff\n\nPERINGATAN:\n- Patch test dulu!\n- Natural selalu aman\n- Tidak steril = risk of contamination\n- Hasil tidak seefektif formulated products\n\nFormulated products lebih stable & tested!"
+      ]
+    },
+    {
+      "tag": "product_recommendation_budget",
+      "patterns": [
+        "Rekomendasi skincare murah",
+        "Skincare terjangkau",
+        "Drugstore skincare",
+        "Skincare Murah friendly",
+        "Skincare Terjangkau"
+      ],
+      "responses": [
+        "SKINCARE BUDGET-FRIENDLY:\n\nBrand Terjangkau (Efektif!):\n- The Ordinary (affordable actives)\n- CeraVe (ceramide, recommended dermatologist)\n- Cetaphil (gentle, basic)\n- Skin Aqua (sunscreen favorit)\n- Hada Labo (hyaluronic acid)\n- Some By Mi (AHA BHA PHA)\n- Innisfree (natural ingredients)\n- Emina (lokal, affordable)\n\nPRIORITAS BUDGET:\n1) SUNSCREEN (paling penting!)\n2) Gentle cleanser\n3) Moisturizer\n4) Serum 1 jenis (sesuai concern utama)\n\nTIPS:\n- Fokus pada ingredients, bukan brand\n- Drugstore brands sama efektifnya\n- Sample/trial size untuk test\n- Invest di sunscreen & serum\n- Basic routine sudah cukup!\n\nMahal lebih baik. Consistency > price!"
+      ]
+    },
+    {
+      "tag": "skincare_order_concern",
+      "patterns": [
+        "Boleh pakai semua serum sekaligus",
+        "Terlalu banyak skincare",
+        "Skincare berlebihan",
+        "Efek terlalu banyak produk",
+        "Overload skincare"
+      ],
+      "responses": [
+        "TERLALU BANYAK SKINCARE:\n\nRISIKO OVERLOAD:\n- Iritasi & kemerahan\n- Skin barrier rusak\n- Breakout\n- Pemborosan (produk tidak terserap)\n- Sulit identify masalah\n\nBERAPHuman bisa dipakai?\n- Maksimal 2-3 serum per routine\n- Total 6-8 produk per hari (sudah banyak!)\n\nPRINSIP:\n- Less is more\n- Quality > quantity\n- Layering terlalu banyak = barrier overload\n- Satu masalah, satu solusi\n\nMULTIPLE SERUMS:\nPagi: 1-2 serum (vitamin C, HA)\nMalam: 1-2 serum (retinol ATAU AHA/BHA, niacinamide)\n\nTIPS:\n- Introduce satu produk per 2 minggu\n- Edit routine sesuai kebutuhan\n- Skin fasting 1x/minggu (hanya cleanser-moisturizer)\n- Listen to your skin!\n\nSkincare minimalis > skincare hoard!"
+      ]
+    },
+    {
+      "tag": "makeup_remover",
+      "patterns": [
+        "Cara membersihkan makeup",
+        "Makeup remover",
+        "Micellar water",
+        "Cleansing oil",
+        "Cleansing balm"
+      ],
+      "responses": [
+        "MAKEUP REMOVER:\n\nJENIS:\n1) MICELLAR WATER:\n- All-in-one cleanser\n- Tidak perlu bilas (tapi lebih baik bilas)\n- Untuk makeup light-medium\n- Cocok: kulit sensitif, travelling\n\n2) CLEANSING OIL:\n- Emulsify dengan air\n- Untuk makeup waterproof & heavy\n- Cocok: semua jenis kulit (yes, oily skin too!)\n\n3) CLEANSING BALM:\n- Solid to oil texture\n- Melting makeup efektif\n- Luxurious feel\n\n4) MAKEUP REMOVER WIPES:\n- Praktis, travel-friendly\n- TIDAK disarankan daily use (harsh, wasteful)\n- Emergency only!\n\nCARA PAKAI:\n1) Aplikasikan di wajah kering\n2) Pijat lembut 30-60 detik\n3) Emulsify dengan air\n4) Bilas hingga bersih\n5) Lanjut water-based cleanser (double cleansing)\n\nJangan tidur dengan makeup!"
+      ]
+    },
+    {
+      "tag": "water_intake",
+      "patterns": [
+        "Minum air untuk kulit",
+        "Berapa liter air sehari",
+        "Air putih untuk kulit glowing",
+        "Hidrasi dari dalam"
+      ],
+      "responses": [
+        "AIR & KESEHATAN KULIT:\n\nKENAPA PENTING:\n- 64% kulit adalah air\n- Hidrasi dari dalam\n- Detoksifikasi\n- Nutrient delivery\n- Kulit plump & glowing\n\nBERAPH liter?\n- Minimal 2-2.5 liter/hari\n- Formula: 30ml x berat badan (kg)\n- Lebih banyak jika: olahraga, cuaca panas, menyusui\n\nTANDA DEHIDRASI:\n- Kulit kering & kusam\n- Fine lines lebih visible\n- Bibir pecah-pecah\n- Dark circles\n- Slow healing\n\nTIPS:\n- Mulai hari dengan 2 gelas air\n- Bawa botol air kemana-mana\n- Set reminder\n- Infused water (lemon, cucumber)\n- Makan buah dengan kandungan air tinggi\n\nTOPICAL + INTERNAL = Best hydration!\nMinum air ganti moisturizer, tapi saling support!"
+      ]
+    },
+    {
+      "tag": "diet_skin",
+      "patterns": [
+        "Makanan untuk kulit",
+        "Diet untuk kulit glowing",
+        "Makanan yang baik untuk kulit",
+        "Makanan penyebab jerawat",
+        "Nutrisi untuk kulit"
+      ],
+      "responses": [
+        "DIET & KESEHATAN KULIT:\n\nMAKANAN BAIK:\n Ikan berlemak (omega-3): salmon, mackerel\n Buah-buahan (vitamin C): jeruk, strawberry, kiwi\n Sayuran hijau: bayam, kale (antioxidants)\n Nuts & seeds (vitamin E): almond, walnut\n Avocado (healthy fats)\n Sweet potato (beta-carotene)\n Tomato (lycopene)\n Dark chocolate (antioxidants, 70%+)\n Green tea (polyphenols)\n\nHINDARI/BATASI:\n Gula berlebih (glycation, jerawat)\n Dairy (bisa trigger jerawat hormonal)\n Processed food\n Fried food (minyak trans)\n Alkohol (dehidrasi)\n\nVITAMIN PENTING:\n- Vitamin A, C, E (antioxidants)\n- Zinc (healing, anti-inflammatory)\n- Omega-3 (anti-inflammatory)\n\nYou are what you eat! Healthy inside = healthy skin outside!"
+      ]
+    },
+    {
+      "tag": "sleep_skin",
+      "patterns": [
+        "Tidur dan kulit",
+        "Begadang bikin jerawat",
+        "Kurang tidur efeknya",
+        "Beauty sleep",
+        "Tidur untuk kulit"
+      ],
+      "responses": [
+        "SLEEP & KESEHATAN KULIT:\n\nKENAPA PENTING (Beauty Sleep Real!):\n- Regenerasi sel kulit (11PM-2AM peak)\n- Produksi kolagen\n- Repair DNA damage\n- Blood flow ke kulit meningkat\n- Hormone balance\n\nEFEK KURANG TIDUR:\n- Dark circles & puffy eyes\n- Jerawat (cortisol )\n- Kulit kusam\n- Aging lebih cepat\n- Skin barrier lemah\n- Fine lines\n\nIDEAL:\n- 7-9 jam per malam\n- Tidur sebelum midnight\n- Tidur berkualitas > kuantitas\n\nSLEEP SKINCARE:\n- Bersihkan wajah sebelum tidur\n- Aplikasikan treatment malam (retinol, AHA)\n- Sleeping mask untuk boost\n- Silk pillowcase (reduce friction)\n- Humidifier (kulit kering)\n- Sleep on back (prevent sleep lines)\n\nBEDTIME ROUTINE:\n- Avoid screen 1 jam sebelum tidur\n- Relaxing ritual\n- Room temperature sejuk\n\nGood sleep = best anti-aging treatment!"
+      ]
+    },
+    {
+      "tag": "stress_skin",
+      "patterns": [
+        "Stress bikin jerawat",
+        "Efek stress pada kulit",
+        "Cara mengatasi stress Kulit",
+        "Kulit jelek karena stress"
+      ],
+      "responses": [
+        "STRESS & KULIT:\n\nEFEK STRESS:\n- Jerawat meningkat (cortisol sebum )\n- Skin barrier melemah\n- Inflammation\n- Penyembuhan lambat\n- Aging lebih cepat\n- Eksim/psoriasis flare-up\n- Rosacea trigger\n\nMEKANISME:\nStress Cortisol  Oil production  Jerawat\nStress Inflammation Skin problems\n\nCOPING STRATEGIES:\n1) SKINCARE:\n- Gentle routine\n- Soothing ingredients (centella, chamomile)\n- Calming mask\n- Face massage\n\n2) LIFESTYLE:\n- Meditation & mindfulness\n- Exercise (release endorphin)\n- Adequate sleep\n- Healthy diet\n- Social support\n- Hobbies & relaxation\n\n3) PROFESSIONAL HELP:\n- Jika stress chronic, consult professional\n\nSELF-CARE RITUALS:\n- Skincare as meditation\n- Bath time relaxation\n- Face massage\n\nMind-skin connection is real! Healthy mind = healthy skin!"
+      ]
+    },
+    {
+      "tag": "exercise_skin",
+      "patterns": [
+        "Olahraga untuk kulit",
+        "Manfaat olahraga untuk wajah",
+        "Exercise dan kulit",
+        "Workout skincare"
+      ],
+      "responses": [
+        "OLAHRAGA & KULIT:\n\nMANFAAT:\n Increased blood flow glowing skin\n Detox melalui keringat\n Stress reduction less breakout\n Better sleep skin repair\n Collagen production\n Reduce inflammation\n\nPRE-WORKOUT SKINCARE:\n1) Bersihkan wajah (no makeup!)\n2) Ringan: toner + light moisturizer\n3) Sunscreen (outdoor)\n4) Hair tie (avoid touching face)\n\nPOST-WORKOUT:\n1) Shower ASAP (max 30 min)\n2) Gentle cleanser\n3) Toner\n4) Hydrating serum\n5) Moisturizer\n6) Don't forget body!\n\nTIPS:\n- Bersihkan gym equipment\n- Bawa handuk bersih (face towel)\n- Hydrate!\n- Shower langsung (keringat + bakteri = jerawat)\n- Clean gym bag & accessories\n\nWORKOUT FREQUENCY:\n- 3-5x/minggu, 30-60 menit\n- Cardio + strength training\n\nHealthy body = healthy skin!"
+      ]
+    },
+    {
+      "tag": "smoking_skin",
+      "patterns": [
+        "Rokok dan kulit",
+        "Efek merokok pada wajah",
+        "Smoker's Wajah",
+        "Cara memperbaiki kulit perokok"
+      ],
+      "responses": [
+        "MEROKOK & KULIT:\n\nEFEK NEGATIF:\n- Penuaan dini (10 tahun lebih tua!)\n- Kerutan dalam (smoker's lines)\n- Kulit kusam & keabu-abuan\n- Kolagen rusak (not produced)\n- Elastisitas hilang sagging\n- Penyembuhan luka lambat\n- Kanker kulit \n- Dark circles & puffy eyes\n- Bibir gelap\n- Yellow teeth & nails\n\nMEKANISME:\n- Nikotin vasokonstriksi oksigen & nutrisi \n- Free radicals cell damage\n- Collagen & elastin degradation\n\nSOLUSI:\n1) STOP MEROKOK (satu-satunya cara!)\n2) Antioxidant skincare:\n  - Vitamin C, E\n  - Niacinamide\n  - Retinol (rebuild collagen)\n3) Hydration maksimal\n4) SUNSCREEN (skin lebih sensitive)\n5) Healthy lifestyle\n\nRECOVERY:\n- Kulit mulai improve 3-9 bulan setelah quit\n- Full recovery: bertahun-tahun\n- Prevention > treatment\n\nQuitting = best anti-aging decision!"
+      ]
+    },
+    {
+      "tag": "pillowcase_skin",
+      "patterns": [
+        "Sarung bantal dan jerawat",
+        "Pillowcase untuk kulit",
+        "Silk pillowcase",
+        "Cara merawat bantal untuk kulit"
+      ],
+      "responses": [
+        "PILLOWCASE & KESEHATAN KULIT:\n\nKENAPA PENTING:\n- 7-9 jam kontak dengan wajah\n- Akumulasi: minyak, bakteri, dead skin cells, produk hair\n- Friction wrinkles & irritation\n\nBEST MATERIAL:\n1) SILK:\n- Less friction\n- Hypoallergenic\n- Tidak menyerap moisture\n- Prevent wrinkles & hair breakage\n- Price: $-$$\n\n2) SATIN:\n- Similar benefit dengan silk\n- More affordable\n- Good alternative\n\n3) COTTON:\n- Breathable\n- Pilih high thread count (400+)\n- Tapi menyerap moisture\n- Price: $\n\nJANGAN: Polyester (tidak breathable, menyerap moisture)\n\nPERAWATAN:\n- Ganti 2-3x/minggu (minimal 1x)\n- Cuci air panas (kill bacteria)\n- Pakai detergen gentle, fragrance-free\n- Jemur di bawah matahari\n\nTIPS:\n- Rotasi 2-3 pillowcase\n- Tidur telentang (prevent sleep lines)\n\nInvestasi kecil, hasil besar!"
+      ]
+    },
+    {
+      "tag": "seasonal_skincare",
+      "patterns": [
+        "Skincare musim panas",
+        "Skincare musim hujan",
+        "Skincare seasonal",
+        "Ubah skincare tiap musim"
+      ],
+      "responses": [
+        "SEASONAL SKINCARE:\n\nMUSIM KEMARAU/PANAS:\n- Kulit lebih berminyak\n- Sunscreen extra diligent!\n- Lightweight textures (gel moisturizer)\n- Exfoliate lebih sering (keringat + sebum)\n- Hydrating mist untuk refresh\n- Oil-control products\n- Re-apply sunscreen!\n\nMUSIM HUJAN/DINGIN:\n- Kulit lebih kering\n- Thicker moisturizers (cream)\n- Occlusive layers (face oil)\n- Gentle cleanser (jangan over-strip)\n- Humidifier di kamar\n- Lip balm intensive\n- Exfoliate gentle (skin barrier sensitive)\n- Tetap pakai sunscreen!\n\nTRANSITION PERIOD:\n- Evaluate kebutuhan kulit\n- Ganti produk bertahap\n- Listen to your skin\n- Stock produk seasonal\n\nUNIVERSAL:\n- SUNSCREEN every day, every season!\n- Hydration from within\n- Gentle cleansing\n\nAdaptasi routine = healthy skin year-round!"
+      ]
+    },
+    {
+      "tag": "travel_skincare",
+      "patterns": [
+        "Skincare saat travelling",
+        "Travel size skincare",
+        "Skincare di pesawat",
+        "Travelling skincare Rutinitas"
+      ],
+      "responses": [
+        "TRAVEL SKINCARE:\n\nMINIMAL TRAVEL KIT:\n1) Gentle cleanser (travel size)\n2) Hydrating toner/essence\n3) Multi-function serum\n4) Moisturizer (richer for plane)\n5) Sunscreen\n6) Sheet masks (in-flight hydration)\n7) Lip balm\n8) Makeup remover wipes (emergency)\n\nIN-FLIGHT TIPS:\n- No makeup! (atau minimal)\n- Hydrating mist every 2 hours\n- Sheet mask mid-flight\n- Drink lots of water\n- Moisturizer + face oil\n- Eye mask + hand cream\n- Avoid alcohol & coffee\n\nPACKING:\n- Travel sizes (<100ml)\n- Decant ke travel bottles\n- Ziplock bag\n- Samples/sachet\n- Solid products (cleansing balm)\n\nADJUST TO DESTINATION:\n- Humid climate: lighter products\n- Dry climate: richer moisturizers\n- Different water: bring micellar\n- Time zone: maintain routine\n\nPOST-TRAVEL:\n- Deep cleansing\n- Hydrating mask\n- Recovery treatment\n\nTravel smart, skin happy!"
+      ]
+    },
+    {
+      "tag": "hormonal_acne",
+      "patterns": [
+        "Jerawat hormonal",
+        "Jerawat menstruasi",
+        "Jerawat di dagu",
+        "Hormonal Jerawat",
+        "Jerawat area U"
+      ],
+      "responses": [
+        "JERAWAT HORMONAL:\n\nCIRI-CIRI:\n- Area: dagu, jawline, leher (U-zone)\n- Timing: around period\n- Deep, cystic, painful\n- Recurrent di area yang sama\n- Usia: 20-40an (adult acne)\n\nPENYEBAB:\n- Hormone fluctuation (androgen )\n- PCOS, thyroid issues\n- Stress (cortisol)\n- Diet (dairy, sugar)\n\nTREATMENT:\n\n1) TOPICAL:\n- BHA/Salicylic acid\n- Benzoyl peroxide\n- Azelaic acid\n- Retinoids\n- Niacinamide\n\n2) INTERNAL:\n- Birth control pills (regulate hormone)\n- Spironolactone (anti-androgen)\n- Antibiotics (if needed)\n- DIM supplements\n\n3) LIFESTYLE:\n- Reduce dairy & sugar\n- Manage stress\n- Sleep adequate\n- Exercise regular\n\nPREVENTION CYCLICAL:\n- Week before period: extra gentle\n- Spot treatment ready\n- Don't introduce new products\n\nConsult dermatologist untuk solution comprehensive!"
+      ]
+    },
+    {
+      "tag": "fungal_acne",
+      "patterns": [
+        "Fungal Jerawat",
+        "Malassezia",
+        "Jerawat jamur",
+        "Jerawat kecil-kecil",
+        "Bumps yang gatal"
+      ],
+      "responses": [
+        "FUNGAL ACNE (Malassezia Folliculitis):\n\nCIRI-CIRI:\n- Small, uniform bumps\n- Itchy! (beda dari regular acne)\n- Area: dahi, chest, back, shoulders\n- Tidak ada whitehead/blackhead\n- Tidak membaik dengan acne treatment biasa\n- Worse setelah: gym, panas, humid\n\nPENYEBAB:\n- Yeast overgrowth (malassezia)\n- Oily skin + humidity + sweat\n- Antibiotics (kill good bacteria)\n- Weakened immune system\n\nTREATMENT:\n\n1) TOPICAL:\n- Ketoconazole cream/shampoo\n- Zinc pyrithione\n- Sulfur\n- Tea tree oil\n- Niacinamide\n\n2) AVOID:\n- Fatty acids, oils, esters (feeds yeast)\n- Heavy, occlusive products\n- Fungal-feeding ingredients\n\n3) LIFESTYLE:\n- Shower after workout\n- Breathable fabrics (cotton)\n- Anti-fungal body wash\n- Change clothes frequently\n\nFUNGAL-SAFE PRODUCTS:\n- Check ingredient: simpleskincarescience.com\n- Avoid oils & fatty alcohols\n\nConsult dermatologist untuk diagnosis! Different treatment dari regular acne."
+      ]
+    },
+    {
+      "tag": "rosacea",
+      "patterns": [
+        "Rosacea",
+        "Kulit kemerahan",
+        "Pipi merah terus",
+        "Sensitif Kulit merah",
+        "Couperose"
+      ],
+      "responses": [
+        "ROSACEA:\n\nGEJALA:\n- Kemerahan persistent (pipi, hidung, dahi)\n- Flushing (merah tiba-tiba)\n- Visible blood vessels\n- Papules & pustules (mirip jerawat)\n- Kulit sensitive, burning, stinging\n\nTRIGGERS:\n- Sun exposure\n- Spicy food, alkohol\n- Hot drinks\n- Extreme temperatures\n- Stress\n- Certain skincare ingredients\n\nSKINCARE ROUTINE:\n\n1) GENTLE:\n- Low pH cleanser\n- Fragrance-free\n- No harsh actives (retinol, AHA/BHA)\n\n2) SOOTHING:\n- Centella asiatica (cica)\n- Niacinamide (low %)\n- Azelaic acid (rosacea-approved)\n- Green tea\n- Allantoin\n\n3) PROTECT:\n- MINERAL sunscreen SPF 50\n- Barrier repair (ceramide)\n\n4) AVOID:\n- Alcohol, fragrance, menthol\n- Essential oils\n- Physical exfoliants\n- Hot water\n\nTREATMENT:\n- Metronidazole gel (prescription)\n- Azelaic acid\n- Laser therapy (IPL)\n\nConsult dermatologist untuk diagnosis & treatment plan!"
+      ]
+    },
+    {
+      "tag": "eczema",
+      "patterns": [
+        "Eksim",
+        "Eczema",
+        "Kulit kering gatal",
+        "Dermatitis atopik",
+        "Kulit mengelupas gatal"
+      ],
+      "responses": [
+        "ECZEMA/EKSIM (Atopic Dermatitis):\n\nGEJALA:\n- Kulit sangat kering, gatal\n- Merah, inflamed\n- Cracked, scaly patches\n- Oozing/crusting (severe)\n- Flare-ups & remission\n\nTRIGGERS:\n- Allergens (dust, pollen)\n- Irritants (soap, detergen)\n- Stress\n- Weather (dry, cold)\n- Sweat\n- Certain fabrics\n\nSKINCARE:\n\n1) GENTLE CLEANSING:\n- Fragrance-free, soap-free\n- Lukewarm water\n- Pat dry (jangan gosok)\n\n2) MOISTURE:\n- Rich, emollient cream\n- Apply on damp skin\n- Re-apply sering\n- Ceramide, colloidal oatmeal\n- Petrolatum/Vaseline (seal moisture)\n\n3) SOOTHE:\n- Centella, allantoin\n- Colloidal oatmeal bath\n- Cool compress\n\n4) AVOID:\n- Fragrance, dyes\n- Harsh chemicals\n- Over-bathing\n- Scratching!\n\nTREATMENT:\n- Hydrocortisone cream (OTC)\n- Prescription steroids\n- Antihistamines (gatal)\n\nLIFESTYLE:\n- Humidifier\n- Cotton clothing\n- Identify triggers\n\nSevere eczema: consult dermatologist!"
+      ]
+    },
+    {
+      "tag": "contact_dermatologist",
+      "patterns": [
+        "Kapan ke dokter kulit",
+        "Perlu ke dermatologist",
+        "Konsultasi dokter kulit",
+        "Masalah kulit parah"
+      ],
+      "responses": [
+        "KAPAN HARUS KE DERMATOLOGIST:\n\nSEGERA KONSULTASI JIKA:\n- Jerawat severe/cystic (tidak membaik 3 bulan)\n- Rash yang spreading/worsening\n- Infeksi kulit (pus, fever)\n- Mole yang berubah (bentuk, warna, ukuran)\n- Suspicious lesion (possible skin cancer)\n- Hair loss sudden/patchy\n- Nail problems persistent\n- Eczema/psoriasis flare-up severe\n\nKONDISI BUTUH RX:\n- Hormonal acne (need birth control/spironolactone)\n- Melasma severe\n- Rosacea\n- Prescription retinoids (tretinoin)\n- Fungal infection\n- Keloid scars\n\nPROCEDURES:\n- Chemical peels professional\n- Laser treatment\n- Microneedling\n- Extraction professional\n- Injections (cortisone, fillers)\n\nPERSIAPAN KONSULTASI:\n- List products yang dipakai\n- Timeline masalah\n- Treatments yang sudah dicoba\n- Family history\n- Foto progress\n\nJangan self-diagnose untuk kondisi serious! Professional help = best decision."
+      ]
+    },
+    {
+      "tag": "product_expiry",
+      "patterns": [
+        "Skincare kadaluarsa",
+        "Berapa lama skincare bertahan",
+        "Expire date skincare",
+        "PAO symbol",
+        "Skincare bau aneh"
+      ],
+      "responses": [
+        "EXPIRY & SHELF LIFE SKINCARE:\n\nPAO (Period After Opening):\n- Symbol: jar terbuka dengan angka\n- 6M = 6 bulan setelah dibuka\n- 12M = 12 bulan setelah dibuka\n- 24M = 24 bulan setelah dibuka\n\nSHELF LIFE TYPICAL:\n- Cleanser: 1 tahun\n- Toner: 6-12 bulan\n- Serum: 3-6 bulan (Vitamin C: 3 bulan!)\n- Moisturizer: 6-12 bulan\n- Sunscreen: 12 bulan (efektivitas menurun)\n- Retinol: 3-6 bulan\n- Eye cream: 6 bulan\n- Makeup: varies (mascara 3 bulan!)\n\nTANDA EXPIRED:\n- Berubah warna\n- Bau aneh/tengik\n- Tekstur berpisah/menggumpal\n- Tidak efektif lagi\n- Irritasi saat dipakai\n\nTIPS:\n- Tulis tanggal buka di kemasan\n- First in, first out\n- Simpan properly\n- Jangan pump/spatula products (ganti disposable)\n\nRISIKO PAKAI EXPIRED:\n- Ineffective\n- Irritation\n- Infection\n- Breakouts\n\nWhen in doubt, throw it out!"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Terima kasih",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak",
+        "Sangat membantu"
+      ],
+      "responses": [
+        "Sama-sama! Senang bisa membantu. Jika ada pertanyaan lain tentang skincare, jangan ragu untuk bertanya ya!",
+        "Dengan senang hati! Semoga informasinya bermanfaat untuk journey skincare kamu. Stay glowing!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Bantuan",
+        "Bisa bantu apa",
+        "Apa yang bisa kamu lakukan",
+        "Fitur apa saja",
+        "Bantuan"
+      ],
+      "responses": [
+        "Saya adalah chatbot customer service toko skincare yang siap membantu Anda dengan:\n\n Informasi produk skincare (cleanser, toner, serum, moisturizer, sunscreen, dll)\n Cara penggunaan produk\n Rekomendasi skincare sesuai jenis kulit\n Tips perawatan kulit\n Mengatasi masalah kulit (jerawat, kulit kering, pori besar, dll)\n Rutinitas skincare pagi & malam\n Kombinasi bahan aktif yang aman\n\nSilakan tanya apa saja seputar skincare!"
+      ]
+    },
+    {
+      "tag": "product_prices",
+      "patterns": [
+        "Berapa harga",
+        "Harga produk",
+        "Harga list",
+        "Harganya berapa",
+        "Produk berapa",
+        "Range harga",
+        "Kisaran harga skincare"
+      ],
+      "responses": [
+        "Harga produk skincare kami bervariasi tergantung brand dan jenis produk:\n\n CLEANSER: Rp 50.000 - Rp 250.000\n TONER: Rp 60.000 - Rp 300.000\n SERUM: Rp 100.000 - Rp 500.000\n MOISTURIZER: Rp 80.000 - Rp 400.000\n SUNSCREEN: Rp 70.000 - Rp 350.000\n MASK: Rp 15.000 - Rp 200.000\n\nUntuk info harga produk spesifik, silakan tanya produk yang Anda cari atau kunjungi website kami!"
+      ]
+    },
+    {
+      "tag": "promotions",
+      "patterns": [
+        "Ada promo",
+        "Diskon apa",
+        "Promo bulan ini",
+        "Diskon",
+        "Ada potongan harga",
+        "Voucher",
+        "Sedang diskon"
+      ],
+      "responses": [
+        "PROMO BULAN INI:\n\n PAKET HEMAT: Beli 3 gratis 1 untuk produk pilihan\n DISKON 20%: Semua sunscreen\n FLASH SALE: Setiap Jumat jam 12.00-14.00\n FREE ONGKIR: Min. belanja Rp 200.000\n VOUCHER MEMBER: Diskon tambahan 10% untuk member\n\nFollow Instagram @beautypaw untuk info promo terbaru! Promo dapat berubah sewaktu-waktu."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Cek pesanan",
+        "Status Pesan",
+        "Pesanan saya",
+        "Pelacakan",
+        "Dimana pesanan saya",
+        "Sudah sampai mana",
+        "Lacak paket"
+      ],
+      "responses": [
+        "Untuk mengecek status pesanan Anda:\n\n Via Website: Login My Orders lihat status\n Via WhatsApp: Kirim nomor order ke 0812-3456-7890\n Via Email: order@beautypaw.com dengan subject \"Cek Pesanan [Nomor Order]\"\n\nJika sudah dikirim, Anda akan menerima nomor resi untuk tracking di website ekspedisi. Status pesanan: Processing Packed Shipped Delivered"
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "Cara bayar",
+        "Metode pembayaran",
+        "Pembayaran apa saja",
+        "Bayar pakai apa",
+        "Transfer kemana",
+        "Pembayaran method",
+        "Bisa COD"
+      ],
+      "responses": [
+        "METODE PEMBAYARAN TERSEDIA:\n\n TRANSFER BANK:\n- BCA, Mandiri, BNI, BRI\n- Virtual Account otomatis\n\n E-WALLET:\n- GoPay, OVO, Dana, ShopeePay\n\n KARTU KREDIT/DEBIT:\n- Visa, Mastercard\n\n COD (Cash on Delivery):\n- Tersedia untuk area tertentu\n- Min. belanja Rp 100.000\n\n Pembayaran dikonfirmasi otomatis. Pesanan akan diproses setelah pembayaran terverifikasi!"
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "Pengiriman",
+        "Ongkir",
+        "Lama pengiriman",
+        "Ekspedisi apa",
+        "Berapa hari sampai",
+        "Pengiriman",
+        "Kurir"
+      ],
+      "responses": [
+        "INFORMASI PENGIRIMAN:\n\n EKSPEDISI:\n- JNE (Reguler, YES, Express)\n- SiCepat (Reguler, BEST, Halu)\n- J&T Express\n- AnterAja\n- Grab/Gojek (Same day - area Jakarta)\n\n ESTIMASI:\n- Same Day: 4-8 jam (Jakarta)\n- Reguler: 2-4 hari (Jawa)\n- Reguler: 3-7 hari (Luar Jawa)\n\n ONGKIR:\n- Mulai Rp 10.000\n- FREE ONGKIR min. Rp 200.000\n- Cek ongkir otomatis di checkout\n\n Dikirim dari Jakarta. Pengiriman H+1 setelah pembayaran!"
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "Bisa retur",
+        "Retur",
+        "Tukar barang",
+        "Pengembalian",
+        "Uang kembali",
+        "Barang rusak",
+        "Salah kirim",
+        "Kebijakan pengembalian"
+      ],
+      "responses": [
+        "KEBIJAKAN RETURN & REFUND:\n\nBISA RETURN JIKA:\n Produk rusak/cacat/expired\n Salah kirim produk\n Paket tidak lengkap\n Dalam 3 hari setelah diterima\n\nSYARAT:\n Foto/video unboxing (bukti)\n Produk belum dibuka/digunakan (kecuali cacat)\n Kondisi seperti diterima\n\nPROSES:\n1. Hubungi CS max 3 hari setelah terima\n2. Kirim bukti foto/video\n3. CS akan verifikasi\n4. Return/refund diproses\n\nREFUND: 3-7 hari kerja ke rekening/e-wallet\n\n CS: WhatsApp 0812-3456-7890"
+      ]
+    },
+    {
+      "tag": "store_location",
+      "patterns": [
+        "Toko dimana",
+        "Alamat toko",
+        "Lokasi",
+        "Offline Toko",
+        "Bisa datang langsung",
+        "Jam buka",
+        "Buka sampai jam berapa",
+        "Toko Lokasi"
+      ],
+      "responses": [
+        "BEAUTY PAW STORE LOCATIONS:\n\n FLAGSHIP STORE - Bandar Lampung\nJl. Zainal Abidin Pagar Alam, Gang Dakwah, Gaurell Kost\n Senin-Sabtu: 10.00-20.00 WIB\n Minggu: 11.00-18.00 WIB\n (021) 5555-8888\n\n STORE 2 - Bandung\nJl. Riau No. 25, Bandung\n Senin-Sabtu: 10.00-19.00 WIB\n Minggu: Tutup\n (022) 4444-7777\n\n STORE 3 - Surabaya\nGalaxy Mall Lt. 2 No. 45\n Setiap hari: 10.00-21.00 WIB\n (031) 3333-6666\n\n ONLINE: www.beautypaw.com (24/7)\n CS WhatsApp: 0812-3456-7890"
+      ]
+    },
+    {
+      "tag": "product_recommendation_specific",
+      "patterns": [
+        "Rekomendasi produk",
+        "Produk apa yang bagus",
+        "Terbaik seller",
+        "Produk favorit",
+        "Top products",
+        "Rekomendasi toko",
+        "Produk andalanmu"
+      ],
+      "responses": [
+        "BEST SELLER BEAUTY PAW:\n\n CLEANSER:\n- Beauty Paw Gentle Gel Cleanser (Rp 89.000)\n- Perfect for all skin types\n\n TONER:\n- Hydra Glow Toner HA + Niacinamide (Rp 125.000)\n- Viral! Bikin glowing instant\n\n SERUM:\n- Bright Boost Vitamin C 15% (Rp 189.000)\n- Niacinamide 10% + Zinc (Rp 159.000)\n\n MOISTURIZER:\n- Cloud Cream Moisturizer (Rp 145.000)\n- Lightweight, cocok iklim tropis\n\n SUNSCREEN:\n- Daily Shield SPF 50 PA++++ (Rp 99.000)\n- No white cast, matte finish!\n\n STARTER KIT:\nPaket Basic Routine (Cleanser+Toner+Moisturizer+Sunscreen)\nHarga normal: Rp 458.000\nPaket: Rp 349.000 (HEMAT 24%!)\n\nMau rekomendasi sesuai jenis kulit? Tanya aja!"
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "Kamu siapa?",
+        "Siapa kamu?",
+        "Apa are you?",
+        "Kenalan dong",
+        "Namamu siapa?",
+        "Boleh tau nama kamu?",
+        "Ini bot atau manusia?"
+      ],
+      "responses": [
+        "Saya adalah Beauty Paw Assistant, teman virtualmu untuk konsultasi skincare.",
+        "Halo! Saya asisten virtual Beauty Paw. Siap membantu perjalanan glowing-mu.",
+        "Saya bot pintar dari Beauty Paw yang didesain untuk membantu memilih skincare yang tepat."
+      ]
+    },
+    {
+      "tag": "creator_info",
+      "patterns": [
+        "Siapa yang buat kamu?",
+        "Siapa penciptamu?",
+        "Kamu dibuat oleh siapa?",
+        "Siapa developernya?",
+        "Yang bikin siapa?"
+      ],
+      "responses": [
+        "Saya dikembangkan oleh tim teknis Beauty Paw yang hebat.",
+        "Saya adalah hasil karya tim developer Beauty Paw.",
+        "Rahasia dapur! Tapi yang jelas, saya dibuat dengan cinta oleh tim Beauty Paw."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "Apa kabar?",
+        "Gimana kabarmu?",
+        "Bagaimana are you?",
+        "Sehat?",
+        "Apa kabar bot?",
+        "Lagi apa?"
+      ],
+      "responses": [
+        "Saya selalu siap sedia membantu Anda! Ada yang bisa saya bantu hari ini?",
+        "Kabar baik! Sistem saya berjalan lancar 100%. Terima kasih sudah bertanya.",
+        "Saya hanyalah program komputer, tapi saya merasa sangat 'berenergi' untuk membantu Anda!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "Kamu pintar",
+        "Makasih ya bantuannya",
+        "Good job",
+        "Keren banget",
+        "Botnya bagus",
+        "Mantap",
+        "Nice info"
+      ],
+      "responses": [
+        "Terima kasih banyak! Saya senang bisa membantu.",
+        "Wah, terima kasih pujiannya! Bikin saya jadi semangat.",
+        "Senang mendengarnya. Kalau ada lagi yang ingin ditanyakan, silakan ya."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Cerita lucu dong",
+        "Ngalah dong",
+        "Bikin ketawa",
+        "Jokes",
+        "Lelucon"
+      ],
+      "responses": [
+        "Kenapa skincare mahal? Karena bikin wajah 'mahal' juga!",
+        "Kulit aku sama dompet aku punya satu kesamaan: sama-sama sensitif.",
+        "Tau ngga, kenapa jerawat suka mampir? Karena dia ngga punya rumah sendiri."
+      ]
+    },
+    {
+      "tag": "ingredient_retinol",
+      "patterns": [
+        "Apa itu retinol?",
+        "Manfaat retinol",
+        "Fungsi retinol",
+        "Kapan pakai retinol?",
+        "Retinol buat apa?",
+        "Bahaya retinol"
+      ],
+      "responses": [
+        "Retinol adalah turunan Vitamin A yang sangat efektif untuk anti-aging dan mengatasi jerawat. Ia bekerja mempercepat pergantian sel kulit.",
+        "Fungsi utama retinol: menyamarkan garis halus, mencerahkan noda hitam, dan meratakan tekstur kulit. Gunakan hanya di malam hari ya.",
+        "Retinol bagus untuk anti-aging. Tapi hati-hati, pemula sebaiknya pakai persentase rendah dulu dan wajib pakai sunscreen besok paginya."
+      ]
+    },
+    {
+      "tag": "ingredient_niacinamide",
+      "patterns": [
+        "Apa itu niacinamide?",
+        "Manfaat niacinamide",
+        "Fungsi niacinamide",
+        "Niacinamide buat apa?",
+        "Boleh pakai niacinamide tiap hari?"
+      ],
+      "responses": [
+        "Niacinamide (Vitamin B3) adalah superstar untuk mencerahkan kulit, mengontrol minyak, dan memperkuat skin barrier.",
+        "Niacinamide cocok untuk hampir semua jenis kulit. Fungsinya memudarkan bekas jerawat, mengecilkan pori-pori, dan meredakan kemerahan.",
+        "Kamu bisa pakai Niacinamide pagi dan malam. Bahan ini cukup gentle dan bisa digabung dengan hampir semua ingredient lain."
+      ]
+    },
+    {
+      "tag": "ingredient_vitaminc",
+      "patterns": [
+        "Apa itu vitamin c?",
+        "Manfaat vitamin c serum",
+        "Fungsi vitamin c",
+        "Vitamin C dipakai kapan?",
+        "Vit C bikin cerah?"
+      ],
+      "responses": [
+        "Vitamin C adalah antioksidan kuat yang melindungi kulit dari radikal bebas dan sinar UV, serta sangat ampuh mencerahkan kulit kusam.",
+        "Pakai Vitamin C di pagi hari sebelum sunscreen untuk perlindungan maksimal. Kulit jadi glowing dan noda hitam memudar.",
+        "Fungsi Vitamin C: mencerahkan wajah, merangsang kolagen, dan memudarkan hiperpigmentasi."
+      ]
+    },
+    {
+      "tag": "ingredient_aha_bha",
+      "patterns": [
+        "Apa itu AHA BHA?",
+        "Bedanya AHA dan BHA",
+        "Manfaat eksfoliasi",
+        "Cara pakai AHA BHA",
+        "Toner eksfoliasi"
+      ],
+      "responses": [
+        "AHA (seperti Glycolic Acid) bekerja di permukaan untuk mencerahkan, sedangkan BHA (Salicylic Acid) masuk ke pori-pori untuk bersihkan minyak.",
+        "Gunakan AHA/BHA 2-3 kali seminggu untuk mengangkat sel kulit mati. Jangan lupa pakai moisturizer setelahnya.",
+        "AHA bagus untuk kulit kering dan kusam. BHA bagus untuk kulit berminyak dan berjerawat."
+      ]
+    },
+    {
+      "tag": "ingredient_hyaluronic",
+      "patterns": [
+        "Apa itu hyaluronic acid?",
+        "Manfaat hyaluronic acid",
+        "Fungsi HA",
+        "Hyaluronic acid buat apa?"
+      ],
+      "responses": [
+        "Hyaluronic Acid adalah humektan yang bisa menahan air hingga 1000x beratnya sendiri. Fungsinya bikin kulit lembap dan kenyal.",
+        "HA cocok untuk semua jenis kulit, terutama kulit kering dan dehidrasi. Ia mengunci kelembapan di dalam kulit.",
+        "Gunakan serum Hyaluronic Acid pada kulit yang sedikit basah/lembap agar hasilnya maksimal."
+      ]
+    },
+    {
+      "tag": "layering_rules",
+      "patterns": [
+        "Urutan pakai skincare",
+        "Layering skincare yang benar",
+        "Habis toner pakai apa?",
+        "Urutan pagi dan malam",
+        "Langkah by Langkah skincare"
+      ],
+      "responses": [
+        "Urutan dasar: Cleanser > Toner > Serum > Moisturizer > Sunscreen (Pagi).",
+        "Prinsip layering: dari yang teksturnya paling cair ke yang paling kental. Cair dulu, baru cream.",
+        "Ingat CTMP: Cleansing, Toning, Moisturizing, Protecting (Sunscreen). Itu wajib!"
+      ]
+    },
+    {
+      "tag": "conflicting_ingredients",
+      "patterns": [
+        "Retinol boleh campur vit c?",
+        "AHA BHA boleh campur retinol?",
+        "Niacinamide boleh campur vit c?",
+        "Skincare yang gaboleh dicampur"
+      ],
+      "responses": [
+        "Hindari mencampur Retinol dengan AHA/BHA bersamaan karena bisa iritasi. Gunakan selang-seling (misal: Retinol malam, AHA/BHA besoknya).",
+        "Vitamin C dan Retinol sebaiknya dipisah. Gunakan Vitamin C pagi hari, dan Retinol malam hari.",
+        "Niacinamide dan Vitamin C sekarang umumnya aman digabung, tapi kalau kulit sensitif, beri jeda waktu pemakaian."
+      ]
+    },
+    {
+      "tag": "acne_tips",
+      "patterns": [
+        "Cara menghilangkan jerawat",
+        "Obat jerawat ampuh",
+        "Tips kulit berjerawat",
+        "Jerawat batu di dagu",
+        "Masker buat jerawat"
+      ],
+      "responses": [
+        "Untuk jerawat, cari kandungan Salicylic Acid, Tea Tree, atau Benzoyl Peroxide. Jangan dipencet ya!",
+        "Kunci atasi jerawat: Double cleansing tiap malam, jangan skip moisturizer, dan obat totol jerawat.",
+        "Hindari makanan manis dan susu berlebih, ganti sarung bantal rutin, dan kelola stres untuk kurangi jerawat."
+      ]
+    },
+    {
+      "tag": "dark_spot_tips",
+      "patterns": [
+        "Cara menghilangkan bekas jerawat",
+        "Obat noda hitam",
+        "Flek hitam susah hilang",
+        "Cara mencerahkan wajah",
+        "Serum buat bekas jerawat"
+      ],
+      "responses": [
+        "Untuk bekas jerawat hitam (PIH), cari kandungan Vitamin C, Alpha Arbutin, Niacinamide, atau Tranexamic Acid.",
+        "Bekas jerawat merah (PIE) butuh soothing ingredients seperti Centella Asiatica atau Mugwort. Dan wajib sunscreen!",
+        "Eksfoliasi rutin dengan AHA (Glycolic/Lactic Acid) bisa membantu memudarkan noda hitam lebih cepat."
+      ]
+    }
+  ]
+}

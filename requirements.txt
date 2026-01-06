@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+scikit-learn>=1.0.0
+numpy>=1.21.0
+PySastrawi>=1.2.0
+pydantic>=2.0.0
+python-multipart
+
+streamlit
